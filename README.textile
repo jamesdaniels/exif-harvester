@@ -1,0 +1,25 @@
+h1. Ruby EXIF meta harvester
+
+Harvests the EXIF meta data on all files matching the _search_pattern_ within the _base_folder_.
+
+Useful for projects that manage multi-media.
+
+h2. Prerequisites
+
+h3. Gems
+
+None
+
+h3. Command-line executables
+
+* _find_
+* _exiftool_
+
+h2. References
+
+* "My original EXIF extractor script":http://gist.github.com/57100
+
+h2. Todos
+
+* Turn extraction into hash
+* Handle binary request fields
